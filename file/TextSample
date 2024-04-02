@@ -1,0 +1,25 @@
+allocator Library class that allocates  memory.
+dangling pointer A pointer that refers to
+memory that once had an object but no
+longer does. Program errors due to  pointers are notoriously difficult to
+debug.
+delete Frees memory allocated by new.
+delete p frees the object and delete [] p
+frees the array to which p points. p may be
+null or point to memory allocated by new.
+deleter Function passed to a smart pointer
+to use in place of delete when destroying
+the object to which the pointer is bound.
+destructor Special member function that
+cleans up an object when the object goes out
+of scope or is deleted.
+dynamically allocated Object that is  on the free store. Objects allocated on
+the free store exist until they are explicitly
+deleted or the program terminates.
+free store Memory pool available to a  to hold dynamically allocated objects.
+heap Synonym for free store.
+new Allocates memory from the free store.
+new T allocates and constructs an object of
+type T and returns a pointer to that object;
+if T is an array type, new returns a pointer
+to the first elements in the array. Similarly

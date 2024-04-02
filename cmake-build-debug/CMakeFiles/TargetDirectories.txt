@@ -1,0 +1,3 @@
+D:/ClionProject/Primer/cmake-build-debug/CMakeFiles/Primer.dir
+D:/ClionProject/Primer/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/ClionProject/Primer/cmake-build-debug/CMakeFiles/rebuild_cache.dir
